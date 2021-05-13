@@ -1,0 +1,362 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+@font-face {
+    font-family: "AbhayaLibre";
+    src: url("../assets/AbhayaLibre-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+
+body {
+    background-color: rgb(245, 235, 219);
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    
+}
+
+
+
+.top {
+    height: 200px;
+    width: 100%;
+    size: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 50px;        
+  }
+
+  .anastasia {
+    height: 200px;
+    width: 150%;
+    size: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 50px;        
+   
+  }
+
+  @media (min-width: 350px) {
+    .anastasia {
+      width: 100%;
+    }
+  }
+
+
+  .myphoto {
+        width: 220px;
+        height: 240px;
+        left: 290px;
+        top: 300px;
+        -webkit-box-shadow: 0px 0px 17px 10px #4C4C4C; 
+box-shadow: 0px 0px 17px 10px #4C4C4C;
+      
+      }
+
+
+    .myphoto2 {
+        width: 50%;
+        
+  left: 100px;
+  top: 300px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+    }
+
+    .photo3  {
+        width: 40%;
+        left: 220px;
+        top: 600px;
+
+    }
+  
+.welcome {
+    font-family: "AbhayaLibre";
+    font-size: 50px;
+    left: 300px;
+    top: 200px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+    
+   
+    
+}
+
+.rect {
+    
+    background-color: rgb(197, 197, 171);
+   
+    top: 19px;
+    left: 340px;
+   
+}
+
+.welcome {
+    width: 100%;
+    top: 300px;
+    left: 200px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+  }
+  
+
+.gameboy {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(197, 197, 171);
+   
+    top: 660px;
+    left: 10px;
+    border-radius: 20px;
+    opacity: 0.5;
+   
+}
+
+.gameboy:hover{
+    filter: blur(2px);
+}
+
+.university-works {
+    
+    width: 40px;
+    height: 500px;
+    top: 790px;
+    left: 400px;
+    transform: rotate(143deg);
+
+    
+}
+
+.my-illustrations {
+    width: 40px;
+    height: 500px;
+    top: 590px;
+    left: 850px;
+    transform: rotate(143deg);
+
+}
+
+.archive {
+    width: 40px;
+    height: 500px;
+    top: 1130px;
+    left: 760px;
+    
+}
+
+.app {
+    
+    top: 760px;
+    left: 140px;
+    opacity: 0.3;
+}
+
+.illustration1 {
+    top: 760px;
+    left: 540px;
+    opacity: 0.3;
+}
+
+.square-2 {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    top: 400px;
+    left: 530px;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    
+}
+
+.square-2:hover{
+    transform: rotate(95deg);
+}  
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 13, 79);
+    top: 400px;
+    left: 720px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    top: 402px;
+    left: 725px;
+    background-color: rgb(47, 203, 231);
+
+}
+.circle-2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 13, 79);
+    top: 350px;
+    left: 800px;
+    border-radius: 50%;
+
+}
+
+.circle-2:hover{
+    top: 352px;
+    left: 805px;
+    background-color: rgb(74, 197, 201);
+
+}
+
+.screen {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(197, 197, 171);
+   
+    top: 660px;
+    left: 415px;
+    border-radius: 20px;
+    opacity: 0.5;
+  
+    
+
+}
+
+.screen:hover{
+    filter: blur(2px);
+}
+
+
+
+.screen-2 {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(197, 197, 171);
+    
+  
+    top: 660px;
+    left: 820px;
+    border-radius: 20px;
+    opacity: 0.5;
+ 
+}
+
+.screen-2:hover{
+    filter: blur(2px);
+}
+
+.light-button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(235, 187, 55);
+    top: 80px;
+    left: 1000px;
+    border-radius: 50%;
+    animation: advanced-move 1s infinite alternate;
+}
+
+
+
+@keyframes advanced-move {
+    from {
+        left: 920px;
+
+    } 15% {
+        left: 870px;
+
+    } to { 
+        top: 120px;
+    }
+}
+
+
+
+.text {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(197, 198, 160);
+    top: 260px;
+    left: 550px;
+    border-radius: 20px;
+    
+}
+
+.select {
+    width: 50px;
+    height: 13px;
+    background-color: rgb(105, 104, 105);
+    top: 500px;
+    left: 610px;
+    border-radius: 8px;
+    transform: rotate(-30deg);
+    
+
+}
+
+.select:hover{
+    background-color: cornflowerblue;
+}
+
+.start {
+    width: 50px;
+    height: 13px;
+    background-color: rgb(105, 104, 105);
+    top: 520px;
+    left: 660px;
+    border-radius: 8px;
+    transform: rotate(-30deg);
+    
+}
+
+.start:hover{
+    background-color: cornflowerblue;
+}
+
+.character-2 {
+    width: 40px;
+    height: 50px;
+    background-color: rgb(235, 187, 55);
+    top: 80px;
+    left: 720px;
+    transform: skew(50deg);
+    
+}
+
+.scale {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(34, 49, 133);
+    top: 450px;
+    left: 800px;
+    border-radius: 20px;
+    opacity: 0.5;
+
+
+}
+
+.scale:hover {
+    transform: scale(1,2);
+}
